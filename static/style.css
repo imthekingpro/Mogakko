@@ -13,8 +13,8 @@
 }
 
 @font-face {
-    font-family: 'DungGeunMo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .column1 {
-    flex: 0.4;
+    flex: 0.3;
     display: flex;
     flex-direction: column;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .column2 {
-    flex: 1;
+    flex: 0.7;
     display: flex;
     flex-direction: column;
 }
@@ -160,168 +160,68 @@ body {
 }
 
 .news_content {
-    flex: 0.25;
+    flex: 0.4;
+
+    display: flex;
+    flex-direction: row;    
+}
+
+.news_menu {
+    flex: 1;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.first {
+.menu {
+    align-items: baseline;
+    font-size: 13px;
+    font-family: 'KyoboHand';
+    margin-bottom: 5px;
+}
+
+.news_picture {
+    background-color: tomato;
+    color: white;
+    border: solid 1px tomato;
+    border-radius: 5px;
+}
+
+.news_board {
+    background-color: rgb(60, 60, 116);
+    color: white;
+    border: solid 1px rgb(60, 60, 116);
+    border-radius: 5px;
+}
+
+.news_record {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.record {
+    border-bottom: dashed 2px darkgray;
+    margin-bottom: 5px;
+
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
 
-.first_line1 {
-    flex-grow: 0.2;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    text-align: center;
-    background-color: tomato;
-    border: solid 1px tomato;
-    border-radius: 5px;
-    color: white;
-    margin-right: 5px;
-    margin-bottom: 2px;
+.diary, .picture, .board, .visit {
+    flex: 1;
+    font-size: 13px;
+    font-family: 'KyoboHand';
 }
 
-.first_line2 {
-    flex-grow: 3;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    margin-bottom: 2px;
-}
-
-.first_line3 {
-    flex-grow: 4;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    border-bottom: dashed 2px darkgray;
-    margin-bottom: 2px;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.diary {
-    flex-grow: 1;
-}
-
-.picture {
-    flex-grow: 0.5;
-}
-
-.color {
+.record_number {
     color: blue;
 }
 
-.second {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.second_line1 {
-    flex-grow: 0.2;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    text-align: center;
-    background-color: rgb(58, 58, 129);
-    border: solid 1px rgb(58, 58, 129);
-    border-radius: 5px;
-    color: white;
-    margin-right: 5px;
-    margin-bottom: 2px;
-}
-
-.second_line2 {
-    flex-grow: 3;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    margin-bottom: 2px;
-}
-
-.second_line3 {
-    flex-grow: 4.2;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    border-bottom: dashed 2px darkgray;
-    margin-bottom: 2px;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.board {
-    flex-grow: 1;
-}
-
-.visit {
-    flex-grow: 0.45;
-}
-
-.third {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.third_line1 {
-    flex-grow: 0.15;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    text-align: center;
-    background-color: rgb(58, 58, 129);
-    border: solid 1px rgb(58, 58, 129);
-    border-radius: 5px;
-    color: white;
-    margin-right: 5px;
-    margin-bottom: 2px;
-}
-
-.third_line2 {
-    flex-grow: 3;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    margin-bottom: 2px;
-}
-
-.third_line3 {
-    flex-grow: 4;
-    margin-bottom: 2px;
-}
-
-.forth {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.forth_line1 {
-    flex-grow: 0.15;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    text-align: center;
-    background-color: tomato;
-    border: solid 1px tomato;
-    border-radius: 5px;
-    color: white;
-    margin-right: 5px;
-    margin-bottom: 2px;
-}
-
-.forth_line2 {
-    flex-grow: 3;
-    font-size: 12px;
-    font-family: 'DungGeunMo';
-    margin-bottom: 2px;
-}
-
-.forth_line3 {
-    flex-grow: 4;
-    margin-bottom: 2px;    
-}
 
 .miniroom_box {
     flex: 0.05;
