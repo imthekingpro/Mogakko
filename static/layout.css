@@ -1,31 +1,3 @@
-@font-face {
-    font-family: 'BMJUA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IM_Hyemin-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KyoboHand';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SDSamliphopangche_Outline';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     background-image: url("./images/pattern.png");
     background-color: #B8F3B8;
@@ -82,15 +54,9 @@ body {
 
 .row1 {
     flex: 0.1;
-    font-family: 'IM_Hyemin-Bold';
-    font-size: 12px;
     text-align: center;
     padding-top: 10px;
     margin-right: 15px;
-}
-
-#color {
-    color: orangered;
 }
 
 .row2 {
@@ -114,13 +80,10 @@ body {
 
 .explain {
     flex: 1;
-    font-family: 'IM_Hyemin-Bold';
-
 }
 
 .name_box {
     flex: 0.2;
-    font-family: 'IM_Hyemin-Bold';
 }
 
 .profile-dropdown {
@@ -174,7 +137,7 @@ body {
 
 .column2 {
     position: relative;
-    
+
     flex: 0.7;
     display: flex;
     flex-direction: column;
@@ -185,17 +148,14 @@ body {
     display: flex;
 }
 
+
 .row3_1 {
     flex: 1;
-    font-size: 12px;
-    font-family: 'IM_Hyemin-Bold';
     padding-top: 10px;
 }
 
 .row3_2 {
     flex: 1;
-    font-size: 12px;
-    font-family: 'IM_Hyemin-Bold';
     padding-top: 10px;
 }
 
@@ -210,93 +170,6 @@ body {
     padding: 10px;
 }
 
-.news_head {
-    flex: 0.05;
-    color: royalblue;
-    font-size: 17px;
-    border-bottom: solid 1px black;
-    margin-bottom: 5px;
-    font-family: 'BMJUA';
-}
-
-.news_content {
-    flex: 0.4;
-
-    display: flex;
-    flex-direction: row;    
-}
-
-.news_menu {
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.menu {
-    align-items: baseline;
-    font-size: 15px;
-    font-family: 'KyoboHand';
-    margin-bottom: 5px;
-}
-
-.news_picture {
-    background-color: tomato;
-    color: white;
-    border: solid 1px tomato;
-    border-radius: 5px;
-}
-
-.news_board {
-    background-color: rgb(60, 60, 116);
-    color: white;
-    border: solid 1px rgb(60, 60, 116);
-    border-radius: 5px;
-}
-
-.news_record {
-    flex: 1.2;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.record {
-    border-bottom: dashed 2px darkgray;
-    margin-bottom: 5px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.diary, .picture, .board, .visit {
-    flex: 1;
-    font-size: 15px;
-    font-family: 'KyoboHand';
-}
-
-.record_number {
-    color: blue;
-}
-
-
-.miniroom_box {
-    flex: 0.05;
-    color: royalblue;
-    font-size: 17px;
-    font-family: 'BMJUA';
-    border-bottom: solid 1px black;
-}
-
-.miniroom_content {
-    flex: 1;
-    background-image: url("https://thumbs.gfycat.com/JitteryClutteredIsopod-size_restricted.gif");
-    background-size: cover;    
-}
-
 .column3 {
     flex: 0.1;
     padding-top: 50px;
@@ -309,7 +182,6 @@ body {
 
 .column3 a {
     margin-bottom: 10px;
-    font-family: 'SDSamliphopangche_Outline';
     background-color: #BF00FF;
     border: solid 1px #BF00FF;
     border-radius: 5px;

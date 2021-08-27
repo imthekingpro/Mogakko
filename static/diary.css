@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.row4 {
+    display: block;
+}
+
+.diary_day {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.today {
+    flex: 0.2;
+    border-right: solid 1px black;
+}
+
+.day_of_month {
+    flex: 1;
+}
+
+.diary_content {
+    height: 430px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#diary_24, #diary_19, #diary_7 {
+    background-color: #ECE5F4;
+    
+    font-family: 'NEXON Lv1 Gothic OTF';
+    
+    border: solid 1px #ECE5F4;
+    border-radius: 5px;
+    
+    margin-bottom: 20px;    
+}
+
+.title_day {
+    text-align: left;
+    color: black;
+    margin: 10px;
+}
+
+.content_box {
+    color: #9999CC;
+    text-align: center;
+    padding: 50px;
+}
+
+.day_of_month a:link, .day_of_month a:visited, .day_of_month a:hover, .day_of_month a:active {
+    color: #2E2EFE;
+    text-decoration: none;
+}
+
+.pic_color {
+    color: #FE642E;
+}
+
+button {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    border: solid 1px white;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #FF775C;
+    transition: all 1s;
+}
+
+.hidden {
+    display: none;
+
+    height: 150px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 10px 75px;
+}

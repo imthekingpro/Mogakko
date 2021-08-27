@@ -1,0 +1,84 @@
+#color {
+    color: orangered;
+}
+
+.news_head {
+    flex: 0.05;
+    color: royalblue;
+    border-bottom: solid 1px black;
+    margin-bottom: 5px;
+}
+
+.news_content {
+    flex: 0.4;
+
+    display: flex;
+    flex-direction: row;    
+}
+
+.news_menu {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu {
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.news_picture {
+    background-color: tomato;
+    color: white;
+    border: solid 1px tomato;
+    border-radius: 5px;
+}
+
+.news_board {
+    background-color: rgb(60, 60, 116);
+    color: white;
+    border: solid 1px rgb(60, 60, 116);
+    border-radius: 5px;
+}
+
+.news_record {
+    flex: 1.2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.record {
+    border-bottom: dashed 2px darkgray;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.diary, .picture, .board, .visit {
+    flex: 1;
+}
+
+.record_number {
+    color: blue;
+}
+
+
+.miniroom_box {
+    flex: 0.05;
+    color: royalblue;
+    border-bottom: solid 1px black;
+
+}
+
+.miniroom_content {
+    flex: 1;
+    background-image: url("https://thumbs.gfycat.com/JitteryClutteredIsopod-size_restricted.gif");
+    background-size: cover;    
+}
+

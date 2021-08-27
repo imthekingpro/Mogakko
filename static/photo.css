@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row4 {
+    display: block;
+    overflow-y: scroll;
+
+}
+
+.explain_box  {
+    color: black;
+    font-family: 'KyoboHand';
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.photo_box {
+    height: 300px;
+    background-size: cover;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#first_photo {
+    background-image: url("https://www.ghibli.jp/gallery/howl005.jpg");
+}
+
+#second_photo {
+    background-image: url("https://www.ghibli.jp/gallery/howl044.jpg");
+}
+
+#third_photo {
+    background-image: url("https://www.ghibli.jp/gallery/howl049.jpg");
+}
+
+.text_box {
+    padding-left: 20px;
+    padding-bottom: 80px;
+    font-family: 'ChosunGu';
+}
+
+#color_white {
+    color: white;
+}
+
+#column3 {
+    flex: 0.2;
+}

@@ -1,0 +1,24 @@
+.row4 {
+    display: block;
+    overflow: auto;
+    padding: 20px;
+}
+
+.visit_name {
+    background-color: #F5D0A9 ;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.visit_content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.visit_text {
+    width: 100%;
+    margin-left: 30px;
+    text-align: center;
+}
